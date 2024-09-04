@@ -1,3 +1,4 @@
+name: holyiot_yj_16048
 build:
   settings:
     board_root: .
