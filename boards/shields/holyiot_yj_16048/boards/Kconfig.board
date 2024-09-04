@@ -1,0 +1,8 @@
+# aW_1 board configuration
+#
+# Copyright (c) 2024 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config BOARD_HOLYIOT_YJ_16048
+	bool "holyiot_yj_16048"
+	depends on SOC_NRF52832_QFAA

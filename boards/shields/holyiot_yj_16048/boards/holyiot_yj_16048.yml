@@ -1,0 +1,10 @@
+identifier: holyiot_yj_16048
+name: holyiot_yj_16048
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 64
+flash: 512

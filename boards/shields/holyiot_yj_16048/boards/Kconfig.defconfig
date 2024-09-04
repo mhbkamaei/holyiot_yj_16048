@@ -1,0 +1,18 @@
+# Copyright (c) 2024 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if BOARD_HOLYIOT_YJ_16048
+
+config BOARD
+    default "holyiot_yj_16048"
+
+config ZMK_KEYBOARD_NAME
+    default "holyiot_yj_16048"
+
+config BT_CTLR
+    default BT
+
+#config ZMK_KSCAN_MATRIX_POLLING
+#    default y
+
+endif # BOARD_HOLYIOT_YJ_16048
