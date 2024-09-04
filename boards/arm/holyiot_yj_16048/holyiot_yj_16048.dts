@@ -39,11 +39,11 @@
         compatible = "zmk,kscan-composite";
         rows = <5>;
         columns = <14>;
-
+/*
         left {
             kscan = <&kscan_left>;
         };
-
+*/
         right {
             kscan = <&kscan_right>;
             column-offset = <7>;
