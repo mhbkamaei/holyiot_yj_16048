@@ -49,7 +49,7 @@
             column-offset = <7>;
         };
     };
-
+/*
     kscan_left: kscan_left {
         compatible = "zmk,kscan-gpio-matrix";
 
@@ -73,7 +73,7 @@
         , <&left_io 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         ;
     };
-
+*/
     kscan_right: kscan_right {
         compatible = "zmk,kscan-gpio-matrix";
 
