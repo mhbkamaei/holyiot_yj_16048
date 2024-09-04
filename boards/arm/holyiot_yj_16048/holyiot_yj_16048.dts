@@ -126,7 +126,7 @@
 };
 
 &flash0 {
-	#https://docs.zephyrproject.org/latest/build/dts/api/bindings/mtd/fixed-partitions.html
+	/*https://docs.zephyrproject.org/latest/build/dts/api/bindings/mtd/fixed-partitions.html*/
 	partitions {
 		compatible = "fixed-partitions";
 		#address-cells = <0x1>;
