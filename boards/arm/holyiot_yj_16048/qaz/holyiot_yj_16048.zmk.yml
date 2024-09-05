@@ -1,9 +1,0 @@
-file_format: "1"
-id: holyiot_yj_16048
-name: holyiot_yj_16048
-type: board
-arch: arm
-features:
-  - keys
-outputs:
-  - ble
