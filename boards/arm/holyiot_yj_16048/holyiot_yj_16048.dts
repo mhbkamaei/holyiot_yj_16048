@@ -39,17 +39,17 @@
         compatible = "zmk,kscan-composite";
         rows = <5>;
         columns = <14>;
-
+/*
         left {
             kscan = <&kscan_left>;
         };
-
+*/
         right {
             kscan = <&kscan_right>;
             column-offset = <7>;
         };
     };
-
+/*
     kscan_left: kscan_left {
         compatible = "zmk,kscan-gpio-matrix";
 
@@ -73,7 +73,7 @@
         , <&left_io 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         ;
     };
-
+*/
     kscan_right: kscan_right {
         compatible = "zmk,kscan-gpio-matrix";
 
@@ -98,12 +98,12 @@
         ;
     };
 
-    #vbatt: vbatt {
-    #    compatible = "zmk,battery-voltage-divider";
-    #    io-channels = <&adc 2>;
-    #    output-ohms = <2000000>;
-    #    full-ohms = <(2000000 + 806000)>;
-    #};
+    vbatt: vbatt {
+        compatible = "zmk,battery-voltage-divider";
+        io-channels = <&adc 2>;
+        output-ohms = <2000000>;
+        full-ohms = <(2000000 + 806000)>;
+    };
 };
 
 &uicr {
@@ -124,7 +124,7 @@
 };
 
 &flash0 {
-	#https://docs.zephyrproject.org/latest/build/dts/api/bindings/mtd/fixed-partitions.html
+	/*https://docs.zephyrproject.org/latest/build/dts/api/bindings/mtd/fixed-partitions.html*/
 	partitions {
 		compatible = "fixed-partitions";
 		#address-cells = <0x1>;
